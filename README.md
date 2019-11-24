@@ -13,3 +13,4 @@ You can see the unity file in the DevGame folder and can play it in the ExecGame
 - [ ] Add music
 - [ ] Menu
 - [ ] GameOver 
+- [ ] Finish banner
