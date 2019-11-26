@@ -9,10 +9,10 @@ You can see the unity file in the DevGame folder and can play it in the ExecGame
 - [x] Fix boss health
 - [x] Fix movement bugs
 - [x] Create 2nd scene
-- [ ] Place objects in 2nd scene
-- [ ] Create 3th scene
+- [x] Place objects in 2nd scene
+- [x] Create 3th scene
 - [ ] Place objects in 3th scene
 - [ ] Add music
-- [ ] Menu
+- [x] Menu
 - [ ] GameOver 
 - [ ] Finish banner
