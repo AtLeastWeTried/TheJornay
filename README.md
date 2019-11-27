@@ -11,8 +11,8 @@ You can see the unity file in the DevGame folder and can play it in the ExecGame
 - [x] Create 2nd scene
 - [x] Place objects in 2nd scene
 - [x] Create 3th scene
-- [ ] Place objects in 3th scene
-- [ ] Add music
+- [x] Place objects in 3th scene
+- [x] Add music
 - [x] Menu
-- [ ] GameOver 
-- [ ] Finish banner
+- [x] GameOver 
+- [x] Finish banner
