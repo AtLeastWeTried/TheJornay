@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour 
 {
-    public Animator enemyAnim;
+    //public Animator enemyAnim;
     public float damageTime = 1f;
     public int health;
     private bool invulnerable = false;
@@ -18,7 +18,7 @@ public class Enemy : MonoBehaviour
 
     void Start()
     {
-        enemyAnim.enabled = true;
+        //enemyAnim.enabled = true;
     }
  
     void Update () 
@@ -50,11 +50,12 @@ public class Enemy : MonoBehaviour
         {
             if (collision.transform.tag == "Player")
             {
-                Debug.Log("Damage given");
-                enemyAnim.SetBool("attack", true);
+                invulnerable = false;
+                //Debug.Log("Damage given");
+                //enemyAnim.SetBool("attack", true);
                 collision.GetComponent<HealthSystem>().Damaged();
-                StartCoroutine(GodMode());
-                enemyAnim.SetBool("attack", false);
+                //StartCoroutine(GodMode());
+                //enemyAnim.SetBool("attack", false);
             }
         }
     }
