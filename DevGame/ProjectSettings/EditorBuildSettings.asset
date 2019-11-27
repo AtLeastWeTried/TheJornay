@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/cenario.unity
     guid: 64137137041403a43b3e4680ad42c5ec
+  - enabled: 1
+    path: Assets/Scenes/WINNER.unity
+    guid: 08b4608fb6d47f44ebf80f06cffd8f9f
   m_configObjects: {}
